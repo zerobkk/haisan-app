@@ -244,7 +244,7 @@ export default function CaiDatPage() {
                         onChange={(e) => updateUserRole(user.id, e.target.value as 'admin' | 'staff')}
                         disabled={saving || user.id === profile?.id}
                         className={`text-sm border rounded px-2 py-1 disabled:opacity-50 ${
-                          user.role === 'admin' ? 'bg-blue-50 border-blue-300 text-blue-700' : 'bg-gray-50 border-gray-300 text-gray-700'
+                          user.role === 'admin' ? 'bg-blue-100 border-blue-500 text-blue-900 font-semibold' : 'bg-gray-50 border-gray-400 text-gray-800'
                         }`}
                       >
                         <option value="admin">👑 Admin</option>
