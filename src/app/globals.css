@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0f172a;
+  --foreground: #f1f5f9;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.text-black {
+  color: #f1f5f9 !important;
+}
+
+.text-gray-900 {
+  color: #f1f5f9 !important;
+}
+
+.text-gray-800 {
+  color: #e2e8f0 !important;
+}
+
+.text-gray-700 {
+  color: #cbd5e1 !important;
+}
+
+.text-gray-600 {
+  color: #94a3b8 !important;
+}
+
+.text-gray-500 {
+  color: #64748b !important;
+}
+
+.bg-white {
+  background: #1e293b !important;
+}
+
+.bg-gray-50 {
+  background: #334155 !important;
+}
+
+.bg-gray-100 {
+  background: #334155 !important;
+}
+
+.bg-gray-200 {
+  background: #475569 !important;
+}
+
+input, select, textarea {
+  background: #334155 !important;
+  color: #f1f5f9 !important;
+  border-color: #475569 !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #64748b !important;
+}
+
+select option {
+  background: #1e293b !important;
+  color: #f1f5f9 !important;
+}
