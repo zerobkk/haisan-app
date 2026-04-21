@@ -64,7 +64,7 @@ export default function DashboardLayout({
                     className={`px-3 py-2 text-sm rounded-md transition-colors ${
                       pathname === item.href
                         ? 'bg-blue-600 text-white'
-                        : 'text-slate-300 hover:text-white hover:bg-slate-700'
+                        : 'text-slate-300 hover:text-slate-100 hover:bg-slate-600'
                     }`}
                   >
                     <span className="mr-1">{item.icon}</span>
